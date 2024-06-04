@@ -20,7 +20,7 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/alojamientos/', include('apps.alojamientos.urls')),
-    path('api/habitaciones/', include('apps.habitaciones.urls')),
-    path('api/usuarios/', include('apps.usuarios.urls')),
+    #path('api/alojamientos/', include('apps.alojamientos.urls')),
+    #path('api/habitaciones/', include('apps.habitaciones.urls')),
+    #path('api/usuarios/', include('apps.usuarios.urls')),
 ]
